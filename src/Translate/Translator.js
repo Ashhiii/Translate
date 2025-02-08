@@ -108,7 +108,6 @@ const Translate = ({ navigation }) => {
   
       Alert.alert('Saved!', 'Translation has been saved.');
   
-      // Navigate to TranslationDetailScreen and pass the saved translation
       navigation.navigate('Details', { translation: newTranslation });
   
     } catch (error) {
@@ -325,13 +324,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     padding: 20,
     borderRadius: 10,
-    maxHeight: '80%', // Limit the modal height
+    maxHeight: '80%', 
   },
   closeButtonText: {
     textAlign: 'center',
     fontSize: 16,
     color: '#007AFF',
-    bottom: 30,
+    bottom: 5,
   },
   searchInput: {
     backgroundColor: '#f4f4f4',
