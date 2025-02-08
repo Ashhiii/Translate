@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Translate",
-    "slug": "Translate",
+    "slug": "translate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jeppjepp.Translate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c75520b6-7d29-41ec-9a2f-d1f838f1a8d8"
+      }
+    },
+    "owner": "jeppjepp"
   }
 }
